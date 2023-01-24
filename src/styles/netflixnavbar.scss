@@ -1,0 +1,32 @@
+nav {
+    height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.9);
+    background: transparent;
+    position: absolute;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    
+    > div {
+      > img {
+        height: 100%;
+        width: 170px;
+      }
+    }
+  
+    > button {
+      outline: none;
+      border: none;
+      background-color: transparent;
+  
+      > svg {
+        outline: none;
+        color: red;
+      }
+    }
+  }
+  

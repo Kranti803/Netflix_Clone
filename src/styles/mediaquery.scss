@@ -1,0 +1,140 @@
+
+
+  
+
+@media screen and (max-width:769px) {
+  .signup,.login{
+    > section {
+      width: 330px;
+      min-height: 45px;
+    
+  }
+  } 
+  
+}
+
+
+@media screen and (max-width: 629px) {
+
+  .hero {
+    > section {
+      text-align: center;
+      > div {
+        > h1 {
+          font-size: 30px;
+          line-height: normal;
+          letter-spacing: 0px;
+        }
+        > h2 {
+          font-size: 19px;
+        }
+      }
+
+      > aside > form {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  nav > div > img {
+    height: 100%;
+    width: 100px;
+  }
+
+  .home {
+    height: 50vh;
+    > .main {
+      width: 100%;
+      height: 100%;
+      > img {
+        object-fit: cover;
+      }
+      .description {
+        top: 30%;
+        > h2 {
+          font-size: 24px;
+        }
+        > p:first-of-type {
+          color: white;
+        }
+        > p:last-of-type {
+          display: none;
+        }
+        > aside {
+          > button {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+
+  .cards-row {
+    padding: 0 2px;
+  }
+}
+
+@media screen and (max-width: 366px) {
+  .header{
+    img{
+      width: 100px;
+      height: 80%;
+    }
+  }
+  .home {
+    height: 50vh;
+    > .main {
+      width: 100%;
+      height: 100%;
+      > img {
+        object-fit: cover;
+      }
+      .description {
+        top: 25%;
+      }
+    }
+  }
+
+  .hero {
+    > section {
+      > div {
+        > aside > form {
+          flex-direction: column;
+          gap: 20px;
+          > input {
+            padding: 10px;
+          }
+          
+        }
+      }
+    }
+  }
+  .signup,.login{
+    >section{
+      padding: 20px 40px;
+      width: 270px;
+      >h2{
+        font-size: 25px;
+      }
+      >form>input{
+        padding: 8px;
+      }
+      >form>button{
+        padding: 9px 0;
+      }
+    }
+    
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .home > .main .description > h2 {
+    font-size: 20px;
+  }
+  .home > .main .description > aside > button {
+    font-size: 10px;
+  }
+}

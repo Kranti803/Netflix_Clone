@@ -1,0 +1,27 @@
+.header {
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    img {
+      height: 100%;
+      width: 150px;
+      padding-top: 15px;
+    }
+  
+    button {
+      background-color: #e50914;
+      border-radius: 4px;
+      line-height: normal;
+      padding: 7px 17px;
+      border: none;
+      outline: none;
+      >a{
+          color: white;
+          font-size: 1rem;
+      }
+    }
+  }
+  

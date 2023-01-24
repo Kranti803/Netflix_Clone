@@ -1,0 +1,75 @@
+.cards-row {
+    padding: 0 20px;
+    >h3{
+        padding: 5px;
+        font-size: 25px;
+    }
+    >.title{
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 15px 0;
+    }
+    >.slider{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        scroll-behavior: smooth;
+        position: relative;
+        
+        &::-webkit-scrollbar{
+            display: none;
+        }
+        &:hover >svg{
+            display: block;
+            z-index: 999;
+        }
+        >.card{
+            transition: all .3s;
+            
+            >img{
+                height:200px;
+                width: 200px;
+            }
+            &:hover{
+                scale: 1.08;
+            }
+           
+        }
+
+        //for first row
+        >.first_row_card{
+            height:300px ;
+            
+            >img{
+                border-radius: 4px;
+                height:100%;
+            }
+
+        }
+
+
+
+
+        //for first row
+
+
+
+        >svg{
+            color:white;
+            font-size: 40px;
+            position: absolute;
+            border-radius: 50%;
+            background-color:rgba(0, 0, 0, 0.5);
+            display: none;
+            
+            &:first-of-type{
+                left: 10px;
+            }
+            &:last-of-type{
+                right: 10px;
+            }
+        }
+    }
+}
